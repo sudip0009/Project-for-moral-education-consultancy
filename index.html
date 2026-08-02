@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Moral EduCare</title>
+
+  <link rel="icon" type="image/png" href="img/logo.webp">
+
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Floating Glassy Navbar -->
+    <header class="header-wrapper">
+      <nav class="glass-nav">
+        <!-- Logo -->
+        <a href="index.html" class="logo-link">
+          <div class="logo-icon">
+            <img src="img/logo.webp" alt="">
+            
+          </div>
+             <p  class="name">MORAL <span class = "name2"> EDUCARE</span></p>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <div class="desktop-menu">
+          <a href="index.html" class="nav-link active">Home</a>
+           <a href="service.html" class="nav-link">Services</a>
+         <a href="program.html" class="nav-link contact-btn">Programs</a>
+
+          <a href="about-us.html" class="nav-link">About Us</a>
+         
+          <a href="gallery.html" class="nav-link">Gallery</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="nav-toggle"
+          class="mobile-toggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+        >
+          <svg
+            id="nav-toggle-icon-open"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon-svg"
+          >
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          
+            
+          </svg>
+        </button>
+      </nav>
+
+      <!-- Mobile Dropdown -->
+      <div id="mobile-menu" class="mobile-menu-dropdown">
+        <div class="mobile-links-container">
+          <a href="index.html" class="mobile-link">Home</a>
+          <a href="service.html" class="mobile-link">Services</a>
+          <a href="program.html" class="mobile-link">Program</a>
+          <a href="about-us.html" class="mobile-link">About Us</a>
+          <a href="gallery.html" class="mobile-link contact-btn">Gallery</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+    <main style="position: relative; z-index: 0;">
+      <!-- Background Accents -->
+      <div class="bg-orbs-container">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+  <!-- Slider Images -->
+  <div id="hero-slider" class="hero-slider-wrapper">
+    
+    <!-- Slide 1 -->
+    <div class="hero-slide opacity-100">
+      <picture>
+        <!-- Mobile Image: Shows on screens smaller than 768px -->
+        <source media="(max-width: 768px)" srcset="img/hero-mobile.webp" />
+        <!-- Desktop Image: Default fallback -->
+        <img
+          src="img/hero1.webp"
+          alt=""
+          style=" height: 100%;
+    width: 100%;
+    object-fit: cover;" 
+        />
+      </picture>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hero-slide opacity-0">
+      <picture>
+        <!-- Mobile Image -->
+        <source media="(max-width: 768px)" srcset="img/hero-mobile2.webp" />
+        <!-- Desktop Image -->
+        <img
+          src="img/hero2.webp"
+          alt=""
+          style=" height: 100%;
+    width: 100%;
+    object-fit: cover;;"
+        />
+      </picture>
+    </div>
+    
+  </div>
+
+  <!-- Dark Overlay -->
+
+      </section>
+
+
+
+
+
+<!-- Added ID for JS targeting -->
+    <section class="consultancy-section" id="animate-section">
+        <!-- Header -->
+        
+        <h1 class="main-heading">Your Trusted Partner for <br> <span class="global-e">Global Education</span></h1>
+        
+        <!-- Text -->
+        <p class="description">
+            Moral Educare Consultancy has established an unrivaled legacy as the premier choice for students aiming to pursue academic excellence overseas. From our headquarters in the heart of the capital to our satellite offices across major regional hubs, we are dedicated to bridging the gap between local talent and international universities. With a presence in multiple cities and international support desks, we ensure you are never alone on your journey.
+        </p>
+
+        <!-- Features Icons Section -->
+        <div class="features-container">
+            
+            <!-- 1. Chart Icon -->
+            <div class="feature-item">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 20v-4" />
+                        <path d="M10 20v-8" />
+                        <path d="M14 20v-10" />
+                        <path d="M18 20v-14" />
+                        <path d="M4 14l10 -10" />
+                        <path d="M10 4h4v4" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Industry-Leading Approval Stats</h3>
+            </div>
+
+            <!-- 2. Trophy Icon -->
+            <div class="feature-item">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M8 21l8 0" />
+                        <path d="M12 17l0 4" />
+                        <path d="M7 4h10" />
+                        <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
+                        <circle cx="12" cy="9" r="2" />
+                        <path d="M5 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M19 9m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Driven by Excellence</h3>
+            </div>
+
+            <!-- 3. Certificate Icon -->
+            <div class="feature-item">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24">
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <path d="M7 9h10" />
+                        <path d="M7 12h5" />
+                        <circle cx="15" cy="15" r="2.5" /> 
+                        <path d="M15 17.5v4l1.5 -1l1.5 1v-4" /> 
+                    </svg>
+                </div>
+                <h3 class="feature-title">Accredited Academic Advisors</h3>
+            </div>
+
+            <!-- 4. Team Icon -->
+            <div class="feature-item">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="7" cy="10" r="2" />
+                        <path d="M5 21v-2a4 4 0 0 1 3 -3.85" />
+                        <circle cx="17" cy="10" r="2" />
+                        <path d="M19 21v-2a4 4 0 0 0 -3 -3.85" />
+                        <circle cx="12" cy="8" r="3" />
+                        <path d="M9 21v-3a4 4 0 0 1 4 -4h0a4 4 0 0 1 4 4v3" />
+                        <path d="M12 14v4" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Immigration Specialists</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+     <section class="ticker-section">
+        
+        <div class="ticker-title">
+            <span class="small-text">Recent</span>
+            <h2>Events</h2>
+        </div>
+
+        <div class="ticker-wrapper">
+            <div class="ticker-content">
+                
+                <!-- GROUP 1 (Original Content) -->
+                <div class="event-group">
+                    <div class="event-item">Meet the Representative: UCOL New Zealand is at MORAL!</div>
+                    <div class="event-item">Fast-Track Your Australia Application: Exclusive Info Session</div>
+                    <div class="event-item">HAPPENING SOON: Meet UniSQ Representatives! ⏳</div>
+                    <div class="event-item">The Pathway to Excellence: Meet UOW Australia at MORAL</div>
+                    <div class="event-item nepali-text">“दुई महादेश, एक सफल भविष्य – MORAL”</div>
+                </div>
+
+                <!-- GROUP 2 (Duplicate Content for seamless loop) -->
+                <div class="event-group">
+                    <div class="event-item">Meet the Representative: UCOL New Zealand is at KIEC!</div>
+                    <div class="event-item">Fast-Track Your Australia Application: Exclusive Info Session</div>
+                    <div class="event-item">HAPPENING SOON: Meet UniSQ Representatives! ⏳</div>
+                    <div class="event-item">The Pathway to Excellence: Meet UOW Australia at MORAL</div>
+                    <div class="event-item nepali-text">“दुई महादेश, एक सफल भविष्य –  MORAL”</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="ticker-btn">
+            <a href="#" class="btn-link">
+                More Events 
+            </a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="avenue-section">
+    
+    <!-- LEFT: Illustration (Constructed with CSS & Icons) -->
+    <div class="avenue-illustration-col">
+       <img src="img/usa.webp" alt="">
+    </div>
+
+    <!-- RIGHT: Text Content -->
+    <div class="avenue-content-col">
+        <h2 class="avenue-main-heading">
+            Find the right avenues for 
+            <span class="avenue-highlight-red">international degree</span>
+        </h2>
+
+        <p class="avenue-description">
+            Our experienced counselors possess a deep understanding of international education systems and university admissions requirements. We leverage our extensive global network of partnerships with over 200 leading institutions across 9 countries to provide students with access to a world of educational opportunities. We stand as one of the best education consultancy in Nepal supporting student throughout their study abroad journey.
+        </p>
+
+        
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+<!-- Testimonials Section -->
+<section class="section testimonials" id="testimonials">
+    <div class="container">
+        <div class="section-header animate-on-scroll">
+            <span class="section-label">Success Stories</span>
+            <h2 class="section-title">Hear From Our Successful Alumni</h2>
+            <p class="section-description">
+                Real stories from real people who achieved their international dreams with our help.
+            </p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card animate-on-scroll slide-right" style="transition-delay: 0ms;">
+                <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+                <p class="testimonial-text">GlobalPath made my dream of studying in Australia a reality. Their guidance throughout the visa process was exceptional.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">
+                        <img src="https://i.pinimg.com/736x/dc/1b/16/dc1b165f2032d49a7559a0d9df666a4e.jpg" alt="Suman Karki">
+                    </div>
+                    <div class="testimonial-info">
+                        <p class="testimonial-name">Suman Karki</p>
+                        <p class="testimonial-program">Master's in IT</p>
+                    </div>
+                    <div class="testimonial-country-flag">
+                        <img src="https://flagcdn.com/w80/au.png" alt="Australia">
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card animate-on-scroll slide-right" style="transition-delay: 100ms;">
+                <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+                <p class="testimonial-text">Japanese language training and job placement support was outstanding. Within 6 months, I secured a position in Tokyo.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">
+                        <img src="https://i.pinimg.com/1200x/8c/1b/91/8c1b91bc8d2a4d2b9bfa088652d66a96.jpg" alt="Priya Sharma">
+                    </div>
+                    <div class="testimonial-info">
+                        <p class="testimonial-name">Priya Sharma</p>
+                        <p class="testimonial-program">Technical Intern Training</p>
+                    </div>
+                    <div class="testimonial-country-flag">
+                        <img src="https://flagcdn.com/w80/jp.png" alt="Japan">
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card animate-on-scroll slide-right" style="transition-delay: 200ms;">
+                <svg class="testimonial-quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                </svg>
+                <p class="testimonial-text">Professional, transparent, and genuinely caring. They helped me navigate the complex Canadian immigration process smoothly.</p>
+                <div class="testimonial-author">
+                    <div class="testimonial-avatar">
+                        <img src="https://i.pinimg.com/736x/0e/d9/ce/0ed9cea94dd7bc4927bc57a2ce74e34f.jpg" alt="Rajesh Thapa">
+                    </div>
+                    <div class="testimonial-info">
+                        <p class="testimonial-name">Rajesh Thapa</p>
+                        <p class="testimonial-program">Skilled Worker Program</p>
+                    </div>
+                    <div class="testimonial-country-flag">
+                        <img src="https://flagcdn.com/w80/ca.png" alt="Canada">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+
+</style>
+
+<script>
+// ========================================
+// SCROLL ANIMATIONS FOR TESTIMONIALS
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+    // Create intersection observer
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Get the delay from inline style or default to 0
+                const delay = entry.target.style.transitionDelay || '0ms';
+                entry.target.style.transitionDelay = delay;
+                
+                // Add animated class after a small delay for better sequencing
+                setTimeout(() => {
+                    entry.target.classList.add('animated');
+                }, 50);
+                
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Observe all animated elements
+    animatedElements.forEach(element => {
+        observer.observe(element);
+    });
+
+    // Trigger initial check for elements already in view
+    function checkInitialView() {
+        animatedElements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+            
+            // If element is already in viewport
+            if (rect.top < windowHeight * 0.9 && rect.bottom > 0) {
+                const delay = element.style.transitionDelay || '0ms';
+                element.style.transitionDelay = delay;
+                
+                setTimeout(() => {
+                    element.classList.add('animated');
+                }, 50);
+                
+                observer.unobserve(element);
+            }
+        });
+    }
+
+    // Run initial check after a small delay
+    setTimeout(checkInitialView, 100);
+});
+</script>
+
+
+
+    <!-- JavaScript to trigger animations on scroll -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.2 // Trigger when 20% of the section is visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target); // Run animation only once
+                    }
+                });
+            }, observerOptions);
+
+            const section = document.querySelector('#animate-section');
+            observer.observe(section);
+        });
+    </script>
+
+
+
+
+
+  
+<section class="parallax-section">
+    
+    <!-- Dark Overlay to ensure text readability over the image -->
+    <div class="parallax-overlay"></div>
+
+    
+
+    <!-- Main Centered Content -->
+    <div class="parallax-content-wrapper">
+        
+        <!-- Heading -->
+        <h2 class="parallax-title">
+            <span class="font-light">About</span> 
+            <span class="font-bold">Australia</span>
+        </h2>
+
+        <!-- Button Row -->
+        <div class="parallax-btn-row">
+            <!-- 1. Explore (Dark Red) -->
+            <a href="javascript:void(0);" class="pill-btn btn-explore">Explore</a>
+            
+            <!-- 2. Visa Process (Berry/Magenta) -->
+            <a href="javascript:void(0);" class="pill-btn btn-visa">Visa Process</a>
+            
+            <!-- 3. Scholarships (Purple) -->
+            <a href="javascript:void(0);" class="pill-btn btn-scholar">Scholarships</a>
+            
+            <!-- 4. Related Blogs (Deep Violet/Blue) -->
+            <a href="javascript:void(0);" class="pill-btn btn-blogs">Related Blogs</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="app-section" id="form">
+    <div class="app-container">
+        
+        <!-- LEFT: Application Form -->
+        <div class="app-form-col">
+            <h2 class="app-heading">Apply Now <br>from <span class="app-highlight-red">MORAL</span></h2>
+            
+            <p class="app-desc">
+                While the application process can change from person to person according to his/her personal circumstances, profile, preference and background the following is a common procedure and given as a guideline for students from Nepal wanting to study abroad.
+            </p>
+
+<form action="#" method="POST">
+    <div class="form-group">
+        <label class="form-label">Name <span class="required">*</span></label>
+        <input type="text" class="form-input" name="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="form-group">
+        <label class="form-label">Your Email <span class="required">*</span></label>
+        <input type="email" class="form-input" name="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="form-group">
+        <label class="form-label">Contact Number <span class="required">*</span></label>
+        <input type="tel" class="form-input" name="phone" placeholder="Mobile Number" required>
+    </div>
+
+    <div class="checkbox-group">
+        <input type="checkbox" id="privacy" name="privacy" required>
+        <label for="privacy" class="checkbox-label">By clicking you agree to our Privacy and Terms & Conditions</label>
+    </div>
+
+    <button type="submit" class="app-submit-btn">Send Application</button>
+</form>
+        </div>
+
+        <!-- RIGHT: Image with Cards -->
+        <div class="app-image-col">
+            
+            <!-- Main Student Image -->
+            <img src="img/student.webp" alt="Happy Student" class="main-student-img">
+
+            <!-- Card 1: 250k Stats -->
+            <div class="float-card card-stats">
+                <div class="card-icon-box icon-blue">
+                    <i class="fa-regular fa-calendar-check"></i>
+                </div>
+                <div class="card-text">
+                    <h4>250k</h4>
+                    <p>Assisted Student</p>
+                </div>
+            </div>
+
+            <!-- Card 2: Admission Success -->
+            <div class="float-card card-admission">
+                <div class="card-icon-box icon-orange">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="card-text">
+                    <h4>Congratulations</h4>
+                    <p>Your admission Completed</p>
+                </div>
+            </div>
+
+            <!-- Card 3: Counseling -->
+            <div class="float-card card-counseling">
+                <img src="https://i.pinimg.com/736x/26/65/3d/26653d8947cf66b9c0005bf019844806.jpg" alt="Counselor" class="counselor-avatar" style="object-position: 50% 20%;">
+                <span class="status-dot"></span>
+                <div class="card-text">
+                    <h4>Post-Study Counseling</h4>
+                    <p>Today at 12:00 PM</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+<section class="parallax-section2">
+    
+    <!-- Dark Overlay to ensure text readability over the image -->
+    <div class="parallax-overlay"></div>
+
+    
+
+    <!-- Main Centered Content -->
+    <div class="parallax-content-wrapper">
+        
+        <!-- Heading -->
+        <h2 class="parallax-title">
+            <span class="font-light">Care Giver</span> 
+            <span class="font-bold">Trainning</span>
+        </h2>
+
+        <!-- Button Row -->
+        <div class="parallax-btn-row">
+            <!-- 1. Explore (Dark Red) -->
+            <a href="javascript:void(0);" class="pill-btn btn-explore">Practical Skills</a>
+            
+            <!-- 2. Visa Process (Berry/Magenta) -->
+            <a href="javascript:void(0);" class="pill-btn btn-visa">Communication Skills</a>
+            
+            <!-- 3. Scholarships (Purple) -->
+            <a href="javascript:void(0);" class="pill-btn btn-scholar">Patient Handling</a>
+            
+            <!-- 4. Related Blogs (Deep Violet/Blue) -->
+            <a href="javascript:void(0);" class="pill-btn btn-blogs">Confidence Building</a>
+        </div>
+
+    </div>
+</section> 
+
+
+
+
+
+
+
+
+
+ <section class="university-section9">
+        <div class="container9">
+            <h2 class="section-heading9">Affiliates Universities</h2>
+            
+            <div class="university-scroller9">
+                <div class="university-track9">
+                    <!-- Original Set (6 logos) -->
+                    <div class="university-logo">
+                        <img src="/img/adelade.webp" alt="University of Melbourne">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The University of Queensland.webp" alt="University of Toronto">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The University of Sydney.webp" alt="Imperial College London">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/the la trobe uni.webp" alt="University of Tokyo">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/Griffith University.webp" alt="ETH Zurich">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The-Australia-National-University.webp" alt="National University of Singapore">
+                    </div>
+                    
+                    <!-- Perfect Duplicate Set (same 6 logos again) -->
+                    <div class="university-logo">
+                        <img src="/img/adelade.webp" alt="University of Melbourne">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The University of Queensland.webp" alt="University of Toronto">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The University of Sydney.webp" alt="Imperial College London">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/the la trobe uni.webp" alt="University of Tokyo">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/Griffith University.webp" alt="ETH Zurich">
+                    </div>
+                    <div class="university-logo">
+                        <img src="/img/The-Australia-National-University.webp" alt="National University of Singapore">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Stats Section -->
+<div class="stats-grid">
+    <div class="stat-item">
+        <div class="stat-number">5000+</div>
+        <p class="stat-text">Successful Placements</p>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">200+</div>
+        <p class="stat-text">Partner Universities</p>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">50+</div>
+        <p class="stat-text">Countries Covered</p>
+    </div>
+    <div class="stat-item">
+        <div class="stat-number">98%</div>
+        <p class="stat-text">Success Rate</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="minimal-footer">
+    <div class="footer-content">
+        
+        <!-- Column 1: Brand & Tagline -->
+        <div class="footer-col brand-col">
+            <h2 class="footer-logo">
+                <img src="img/logo.webp" alt="">
+            </h2>
+            <p class="footer-tagline">
+                Bridging dreams with global opportunities since 2006. Your trusted partner for international education.
+            </p>
+        </div>
+
+        <!-- Column 2: Essential Links -->
+        <div class="footer-col links-col">
+            <h3 class="footer-heading">Explore</h3>
+            <ul class="footer-links">
+                <li><a href="service.html">Services</a></li>
+                <li><a href="program.html">Programs</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Contact & Socials -->
+        <div class="footer-col contact-col">
+            <h3 class="footer-heading">Connect</h3>
+            <p class="footer-address">
+                Durbarmarg, Kathmandu<br>
+                01-5925592, 9851093948    moraleducareconsultancy@gmail.com
+            </p>
+            
+             
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/p/Moral-Educare-61571686906798/" target="_blank" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@moral.educare" target="_blank" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div class="footer-bottom">
+        <p>&copy; 2024 MORAL. All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/+9779851093984" target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-tooltip">Chat with us!</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+</a>
+
+
+    
+
+      <!-- Hidden Anchors -->
+      <section id="about" class="anchor-section"></section>
+      <section id="services" class="anchor-section"></section>
+      <section id="gallery" class="anchor-section"></section>
+      <section id="contact" class="anchor-section"></section>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Mobile menu toggle
+        const navToggle = document.getElementById("nav-toggle");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const iconOpen = document.getElementById("nav-toggle-icon-open");
+        const iconClose = document.getElementById("nav-toggle-icon-close");
+
+        function setMenu(open) {
+          if (!mobileMenu || !navToggle) return;
+          // Updated to use display style which works with our CSS class structure
+          mobileMenu.style.display = open ? "block" : "none";
+          
+          navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+          
+          if (iconOpen && iconClose) {
+            if (open) {
+              iconOpen.classList.add("hidden");
+              iconClose.classList.remove("hidden");
+            } else {
+              iconOpen.classList.remove("hidden");
+              iconClose.classList.add("hidden");
+            }
+          }
+        }
+
+        navToggle?.addEventListener("click", () => {
+          const isOpen = mobileMenu && mobileMenu.style.display === "block";
+          setMenu(!isOpen);
+        });
+
+        // Hero image slider logic
+        const heroSlides = document.querySelectorAll(".hero-slide");
+        const heroDots = document.querySelectorAll(".hero-dot");
+        let currentHeroSlide = 0;
+
+        function showHeroSlide(index) {
+          if (!heroSlides.length) return;
+
+          heroSlides.forEach((slide, i) => {
+            const isActive = i === index;
+            slide.style.opacity = isActive ? "1" : "0";
+            slide.style.zIndex = isActive ? "1" : "0";
+          });
+
+          heroDots.forEach((dot, i) => {
+            const isActive = i === index;
+            // Updated to toggle our custom CSS classes instead of Tailwind classes
+            if (isActive) {
+              dot.classList.add("dot-active");
+              dot.classList.remove("dot-inactive");
+            } else {
+              dot.classList.add("dot-inactive");
+              dot.classList.remove("dot-active");
+            }
+          });
+        }
+
+        if (heroSlides.length) {
+          // Initialize
+          showHeroSlide(0);
+
+          setInterval(() => {
+            currentHeroSlide = (currentHeroSlide + 1) % heroSlides.length;
+            showHeroSlide(currentHeroSlide);
+          }, 10000);
+        }
+      });
+    </script>
+
+
+
+
+
+
+
+
+<script>
+// ========================================
+// SCROLL ANIMATIONS FOR STATS
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+
+    // Create intersection observer
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.2
+    };
+
+    const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Get the delay from inline style or default to 0
+                const delay = entry.target.style.transitionDelay || '0ms';
+                entry.target.style.transitionDelay = delay;
+                
+                // Add animated class after a small delay for better sequencing
+                setTimeout(() => {
+                    entry.target.classList.add('animated');
+                }, 50);
+                
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Observe all animated elements
+    animatedElements.forEach(element => {
+        observer.observe(element);
+    });
+
+    // Trigger initial check for elements already in view
+    function checkInitialView() {
+        animatedElements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+            
+            // If element is already in viewport
+            if (rect.top < windowHeight * 0.8 && rect.bottom > 0) {
+                const delay = element.style.transitionDelay || '0ms';
+                element.style.transitionDelay = delay;
+                
+                setTimeout(() => {
+                    element.classList.add('animated');
+                }, 50);
+                
+                observer.unobserve(element);
+            }
+        });
+    }
+
+    // Run initial check after a small delay
+    setTimeout(checkInitialView, 100);
+
+    // ========================================
+    // COUNTER ANIMATION FOR STATS
+    // ========================================
+    const statValues = document.querySelectorAll('.stat-value');
+    
+    const statsCounterObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const text = entry.target.textContent;
+                const value = parseInt(text.replace(/[^0-9]/g, ''));
+                const suffix = text.replace(/[0-9]/g, '');
+                
+                // Reset to 0
+                entry.target.textContent = '0' + suffix;
+                
+                // Animate counter
+                setTimeout(() => {
+                    animateCounter(entry.target, value, suffix);
+                }, 300);
+                
+                statsCounterObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    statValues.forEach(stat => {
+        statsCounterObserver.observe(stat);
+    });
+
+    function animateCounter(element, target, suffix = '') {
+        const duration = 1500;
+        const start = 0;
+        const increment = target / (duration / 16);
+        let current = start;
+
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                element.textContent = target + suffix;
+                clearInterval(timer);
+            } else {
+                element.textContent = Math.floor(current) + suffix;
+            }
+        }, 16);
+    }
+});
+</script>
+
+
+
+
+<script>
+// ========================================
+// WHATSAPP BUTTON INTERACTIONS
+// ========================================
+document.addEventListener('DOMContentLoaded', function() {
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    
+    if (whatsappBtn) {
+        // Add click tracking (you can replace with your analytics)
+        whatsappBtn.addEventListener('click', function(e) {
+            console.log('WhatsApp button clicked');
+            // Add your analytics code here
+            // Example: gtag('event', 'whatsapp_click', { 'event_category': 'Contact', 'event_label': 'WhatsApp' });
+        });
+        
+        // Add keyboard navigation support
+        whatsappBtn.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                this.click();
+            }
+        });
+        
+        // Add subtle hover effect on desktop
+        whatsappBtn.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+        });
+        
+        whatsappBtn.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    }
+    
+    // ========================================
+    // SCROLL-BASED BEHAVIOR
+    // ========================================
+    let lastScrollTop = 0;
+    const whatsappButton = document.querySelector('.whatsapp-btn');
+    
+    if (whatsappButton) {
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            // Hide button on scroll down, show on scroll up
+            if (scrollTop > lastScrollTop && scrollTop > 300) {
+                // Scrolling down
+                whatsappButton.style.transform = 'translateY(100px) scale(1)';
+                whatsappButton.style.opacity = '0';
+                whatsappButton.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+            } else {
+                // Scrolling up or at top
+                whatsappButton.style.transform = 'translateY(0) scale(1)';
+                whatsappButton.style.opacity = '1';
+                whatsappButton.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+            }
+            
+            lastScrollTop = scrollTop;
+        });
+    }
+});
+</script>
+
+
+<script src="header-footer.js"></script>
+  </body>
+</html>
